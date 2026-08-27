@@ -1,0 +1,20 @@
+<Solution>
+  <Folder Name="/Engine/">
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.AssetCompiler/Vecxy.AssetCompiler.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Assets/Vecxy.Assets.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Audio/Vecxy.Audio.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Diagnostics/Vecxy.Diagnostics.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Engine/Vecxy.Engine.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Input/Vecxy.Input.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Kernel/Vecxy.Kernel.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Messaging/Vecxy.Messaging.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Physics/Vecxy.Physics.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Platforms/Vecxy.Platforms.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Platforms.Android/Vecxy.Platforms.Android.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Rendering/Vecxy.Rendering.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Scene/Vecxy.Scene.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.UI/Vecxy.UI.csproj" />
+  </Folder>
+  <Project Path="./Vendors/Vecxy/tools/Vecxy.Cli/Vecxy.Cli.csproj" />
+  <Project Path="TicTacToe.Game/TicTacToe.Game.csproj" />
+</Solution>

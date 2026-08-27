@@ -1,0 +1,30 @@
+# .NET build output
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+[Dd]ebug/
+[Rr]elease/
+artifacts/
+
+# IDE and user-specific settings
+.idea/
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# Test and coverage output
+TestResults/
+coverage/
+*.coverage
+*.coveragexml
+
+# OS metadata and temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*~

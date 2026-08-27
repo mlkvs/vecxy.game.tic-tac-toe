@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <VecxyGenerateEntryPoint>true</VecxyGenerateEntryPoint>
+    </PropertyGroup>
+
+    <Import Project="..\Vendors\Vecxy\Code\Vecxy.Platforms\build\Vecxy.Platforms.props" />
+
+    <ItemGroup>
+      <ProjectReference Include="..\Vendors\Vecxy\Code\Vecxy.Platforms\Vecxy.Platforms.csproj" />
+    </ItemGroup>
+
+</Project>

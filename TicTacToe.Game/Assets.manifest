@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "id": "b9bc84f7-1a7d-46f3-a2bb-8261f5b9e4bd",
+      "source": "Game",
+      "path": "Configs/Application.yaml",
+      "type": "Config",
+      "name": "Application",
+      "hash": "2c94720a6dee32d3651eb8208b436e4c75d0a7acba7006744ffede56d9dd892a",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "9aee9216-2175-4c05-b4ce-014cac216f5e",
+      "source": "Game",
+      "path": "Fonts/Rubik-SemiBold.ttf",
+      "type": "Asset",
+      "name": "Rubik-SemiBold",
+      "hash": "21f6164f7244cc9311cf1ad8bc0be2ecbe0bf957d8ebc0d313462a1bf64d9b7c",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "5a75afd1-3439-4724-97f9-230e65a5c30c",
+      "source": "Game",
+      "path": "UI/Board.xml",
+      "type": "Asset",
+      "name": "Board",
+      "hash": "7441f50f39febd5ece5a198de9da6f887d3a2c8fd528da6905376e72b7c9b8f7",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "1780850f-502d-4771-94cf-8f17aea718e7",
+      "source": "Game",
+      "path": "UI/BoardSlot.xml",
+      "type": "Asset",
+      "name": "BoardSlot",
+      "hash": "5abd37a87147ba304d3fdff99e7482b0f0d80dd3a38fe285410fb0a12b053cb5",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "a2acc545-39de-4ee3-a518-a6291079fe0f",
+      "source": "Game",
+      "path": "UI/BoardStyle.css",
+      "type": "Asset",
+      "name": "BoardStyle",
+      "hash": "f048c6137dcb4de0127980fdde66573dc3b3bf95a825502d1ce899ca935fc872",
+      "dependencies": [
+        "9aee9216-2175-4c05-b4ce-014cac216f5e"
+      ],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    }
+  ],
+  "packages": [
+    {
+      "id": "98cbb7d7-e042-d142-6ea7-cbd84cd256be",
+      "name": "Game",
+      "descriptor": null,
+      "load": 0,
+      "dependencies": [],
+      "version": "1.0.0",
+      "remote": null
+    }
+  ]
+}
