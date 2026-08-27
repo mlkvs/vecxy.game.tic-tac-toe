@@ -1,0 +1,18 @@
+application:
+  title: Tic Tac Toe - Hybrid C# + Luau
+
+window:
+  width: 500
+  height: 900
+
+engine:
+  targetFrameRate: 60
+  showSplashScreen: false
+
+assets:
+  hotReload: true
+  hotReloadDelayMilliseconds: 150
+
+layers:
+  - engine
+  - hybrid-game

@@ -1,0 +1,10 @@
+<ui class="screen" styles="BoardStyle.css" scale-mode="fit" reference-width="1080" reference-height="1920">
+    <panel class="game-card">
+        <text class="title">КРЕСТИКИ-НОЛИКИ</text>
+        <text id="status" class="status">Ходит X</text>
+        <panel id="board" />
+        <button id="restart">
+            <text>НОВАЯ ИГРА</text>
+        </button>
+    </panel>
+</ui>

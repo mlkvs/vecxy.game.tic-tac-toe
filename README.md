@@ -502,3 +502,23 @@ dotnet --list-sdks
 - `Vendors/Vecxy/tools/README.md` — команды asset pipeline и Vecxy CLI.
 
 Этот проект намеренно показывает только фундамент: **приложение → слой → ассет → UI-документ → событие → обновление состояния**. Освоив этот путь, можно подключать остальные модули Vecxy по мере необходимости, не усложняя первый запуск.
+
+## Варианты реализации игры
+
+В solution находятся три совместимых примера:
+
+| Проект | Правила игры | Управление UI | Назначение |
+| --- | --- | --- | --- |
+| `TicTacToe.Game` | C# | C# | Исходный минимальный подход без скриптов. |
+| `TicTacToe.Scripted` | Luau | Luau через C# capability | Пример игры, логика которой загружается из ассета. |
+| `TicTacToe.Hybrid` | C# | Luau | Совмещение типизированной модели и скриптового контроллера. |
+
+Запуск конкретного варианта:
+
+```bash
+dotnet run --project TicTacToe.Game
+dotnet run --project TicTacToe.Scripted
+dotnet run --project TicTacToe.Hybrid
+```
+
+Архитектура scripting runtime, ограничения выполнения и границы безопасности описаны в [Docs/Scripting.md](Docs/Scripting.md).

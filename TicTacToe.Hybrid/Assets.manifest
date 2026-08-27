@@ -1,0 +1,89 @@
+{
+  "assets": [
+    {
+      "id": "18a08670-fa23-4fdc-aa48-76c96f8514a7",
+      "source": "Game",
+      "path": "Configs/Application.yaml",
+      "type": "Config",
+      "name": "Application",
+      "hash": "e42bf2915e6a6291d886463ca1d01744fde02a41cb596a88c2bbc084ef12f369",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "5eee1b51-e595-435b-8259-a7c513b57528",
+      "source": "Game",
+      "path": "Fonts/Rubik-SemiBold.ttf",
+      "type": "Asset",
+      "name": "Rubik-SemiBold",
+      "hash": "21f6164f7244cc9311cf1ad8bc0be2ecbe0bf957d8ebc0d313462a1bf64d9b7c",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "342e15bb-779f-4554-88ca-ff54550e437a",
+      "source": "Game",
+      "path": "Scripts/BoardController.luau",
+      "type": "Script",
+      "name": "BoardController",
+      "hash": "fc7157614839e1f995116a5cc773f860ea976bdd7691d2d35524698263bd3030",
+      "dependencies": [
+        "ad37e001-727a-406f-b535-448335bcc15f"
+      ],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "ad37e001-727a-406f-b535-448335bcc15f",
+      "source": "Game",
+      "path": "Scripts/Messages.luau",
+      "type": "Script",
+      "name": "Messages",
+      "hash": "dfe8a2fe59632b13defa95e0da17e7167da0db4765c0c2260ca07084ec4102f4",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "250f4bf0-56c9-45e3-bef7-1c71cbad767a",
+      "source": "Game",
+      "path": "UI/Board.xml",
+      "type": "Asset",
+      "name": "Board",
+      "hash": "7441f50f39febd5ece5a198de9da6f887d3a2c8fd528da6905376e72b7c9b8f7",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "945e9fc4-dbb7-419a-b270-a7a9f2883477",
+      "source": "Game",
+      "path": "UI/BoardSlot.xml",
+      "type": "Asset",
+      "name": "BoardSlot",
+      "hash": "5abd37a87147ba304d3fdff99e7482b0f0d80dd3a38fe285410fb0a12b053cb5",
+      "dependencies": [],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    },
+    {
+      "id": "2b514fe9-e103-4ea9-8ea5-f9eb94f8675c",
+      "source": "Game",
+      "path": "UI/BoardStyle.css",
+      "type": "Asset",
+      "name": "BoardStyle",
+      "hash": "f048c6137dcb4de0127980fdde66573dc3b3bf95a825502d1ce899ca935fc872",
+      "dependencies": [
+        "5eee1b51-e595-435b-8259-a7c513b57528"
+      ],
+      "package": "98cbb7d7-e042-d142-6ea7-cbd84cd256be"
+    }
+  ],
+  "packages": [
+    {
+      "id": "98cbb7d7-e042-d142-6ea7-cbd84cd256be",
+      "name": "Game",
+      "descriptor": null,
+      "load": 0,
+      "dependencies": [],
+      "version": "1.0.0",
+      "remote": null
+    }
+  ]
+}

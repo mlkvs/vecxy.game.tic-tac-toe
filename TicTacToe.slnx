@@ -13,8 +13,11 @@
     <Project Path="./Vendors/Vecxy/Code/Vecxy.Platforms.Android/Vecxy.Platforms.Android.csproj" />
     <Project Path="./Vendors/Vecxy/Code/Vecxy.Rendering/Vecxy.Rendering.csproj" />
     <Project Path="./Vendors/Vecxy/Code/Vecxy.Scene/Vecxy.Scene.csproj" />
+    <Project Path="./Vendors/Vecxy/Code/Vecxy.Scripting/Vecxy.Scripting.csproj" />
     <Project Path="./Vendors/Vecxy/Code/Vecxy.UI/Vecxy.UI.csproj" />
   </Folder>
   <Project Path="./Vendors/Vecxy/tools/Vecxy.Cli/Vecxy.Cli.csproj" />
   <Project Path="TicTacToe.Game/TicTacToe.Game.csproj" />
+  <Project Path="TicTacToe.Hybrid/TicTacToe.Hybrid.csproj" />
+  <Project Path="TicTacToe.Scripted/TicTacToe.Scripted.csproj" />
 </Solution>
